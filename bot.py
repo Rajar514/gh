@@ -592,7 +592,7 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
         await query.edit_message_text(msg1, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("◀️ Main Menu", callback_data="screen_main")]]), parse_mode="HTML")
 
-        msg2 = (
+msg2 = (
             "🎉 <b>Order Successful!</b>\n"
             "━━━━━━━━━━━━━━━━━━━━\n\n"
             "Thanks user, your purchase is success!\n"
@@ -601,10 +601,10 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"<b>Order ID:</b> <code>{order_short_id}</code>\n"
             "<b>Status:</b> Completed\n\n"
             "<b>Card Details (Click to copy):</b>\n"
-            "• Full Format: <code>6475027170370767|08|2030|013</code>\n"
-            "• Card Number: <code>6475 0271 7037 0767</code>\n"
-            "• Expiry: <code082/2030</code>\n"
-            "• CVV: <code>013</code>"
+            "• Full Format: <code>5085576023231083|04|2033|921</code>\n"
+            "• Card Number: <code>5085 5760 2323 1083</code>\n"
+            "• Expiry: <code>04/2033</code>\n"
+            "• CVV: <code>921</code>"
             "</blockquote>\n\n"
             "Thank you for choosing BIEXC!"
         )
